@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C485A1621D4F882100FE5CC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C485A1611D4F882100FE5CC5 /* main.m */; };
+		C485A1651D4F882100FE5CC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C485A1641D4F882100FE5CC5 /* AppDelegate.m */; };
+		C485A1681D4F882100FE5CC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C485A1671D4F882100FE5CC5 /* ViewController.m */; };
+		C485A16B1D4F882100FE5CC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C485A1691D4F882100FE5CC5 /* Main.storyboard */; };
+		C485A16D1D4F882100FE5CC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C485A16C1D4F882100FE5CC5 /* Assets.xcassets */; };
+		C485A1701D4F882100FE5CC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C485A16E1D4F882100FE5CC5 /* LaunchScreen.storyboard */; };
+		C485A17D1D4F88E600FE5CC5 /* 42-Raindrop.png in Resources */ = {isa = PBXBuildFile; fileRef = C485A1791D4F88E600FE5CC5 /* 42-Raindrop.png */; };
+		C485A17E1D4F88E600FE5CC5 /* XMWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = C485A17B1D4F88E600FE5CC5 /* XMWeatherView.m */; };
+		C485A17F1D4F88E600FE5CC5 /* 樱花瓣2.png in Resources */ = {isa = PBXBuildFile; fileRef = C485A17C1D4F88E600FE5CC5 /* 樱花瓣2.png */; };
+		C485A1811D4F8A8C00FE5CC5 /* 樱花树2.png in Resources */ = {isa = PBXBuildFile; fileRef = C485A1801D4F8A8C00FE5CC5 /* 樱花树2.png */; };
+		C485A1831D4F8CAD00FE5CC5 /* rainning.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C485A1821D4F8CAD00FE5CC5 /* rainning.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C485A15D1D4F882100FE5CC5 /* Rainning&SakuraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rainning&SakuraDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C485A1611D4F882100FE5CC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C485A1631D4F882100FE5CC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C485A1641D4F882100FE5CC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C485A1661D4F882100FE5CC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C485A1671D4F882100FE5CC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C485A16A1D4F882100FE5CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C485A16C1D4F882100FE5CC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C485A16F1D4F882100FE5CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C485A1711D4F882100FE5CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C485A1791D4F88E600FE5CC5 /* 42-Raindrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42-Raindrop.png"; sourceTree = "<group>"; };
+		C485A17A1D4F88E600FE5CC5 /* XMWeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMWeatherView.h; sourceTree = "<group>"; };
+		C485A17B1D4F88E600FE5CC5 /* XMWeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMWeatherView.m; sourceTree = "<group>"; };
+		C485A17C1D4F88E600FE5CC5 /* 樱花瓣2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "樱花瓣2.png"; sourceTree = "<group>"; };
+		C485A1801D4F8A8C00FE5CC5 /* 樱花树2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "樱花树2.png"; sourceTree = "<group>"; };
+		C485A1821D4F8CAD00FE5CC5 /* rainning.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainning.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C485A15A1D4F882100FE5CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C485A1541D4F882100FE5CC5 = {
+			isa = PBXGroup;
+			children = (
+				C485A15F1D4F882100FE5CC5 /* Rainning&SakuraDemo */,
+				C485A15E1D4F882100FE5CC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C485A15E1D4F882100FE5CC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C485A15D1D4F882100FE5CC5 /* Rainning&SakuraDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C485A15F1D4F882100FE5CC5 /* Rainning&SakuraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C485A1781D4F88E600FE5CC5 /* Emmitter */,
+				C485A1631D4F882100FE5CC5 /* AppDelegate.h */,
+				C485A1641D4F882100FE5CC5 /* AppDelegate.m */,
+				C485A1661D4F882100FE5CC5 /* ViewController.h */,
+				C485A1671D4F882100FE5CC5 /* ViewController.m */,
+				C485A1691D4F882100FE5CC5 /* Main.storyboard */,
+				C485A16C1D4F882100FE5CC5 /* Assets.xcassets */,
+				C485A16E1D4F882100FE5CC5 /* LaunchScreen.storyboard */,
+				C485A1711D4F882100FE5CC5 /* Info.plist */,
+				C485A1601D4F882100FE5CC5 /* Supporting Files */,
+			);
+			path = "Rainning&SakuraDemo";
+			sourceTree = "<group>";
+		};
+		C485A1601D4F882100FE5CC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C485A1611D4F882100FE5CC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C485A1781D4F88E600FE5CC5 /* Emmitter */ = {
+			isa = PBXGroup;
+			children = (
+				C485A1821D4F8CAD00FE5CC5 /* rainning.jpeg */,
+				C485A1791D4F88E600FE5CC5 /* 42-Raindrop.png */,
+				C485A17A1D4F88E600FE5CC5 /* XMWeatherView.h */,
+				C485A17B1D4F88E600FE5CC5 /* XMWeatherView.m */,
+				C485A17C1D4F88E600FE5CC5 /* 樱花瓣2.png */,
+				C485A1801D4F8A8C00FE5CC5 /* 樱花树2.png */,
+			);
+			path = Emmitter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C485A15C1D4F882100FE5CC5 /* Rainning&SakuraDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C485A1741D4F882100FE5CC5 /* Build configuration list for PBXNativeTarget "Rainning&SakuraDemo" */;
+			buildPhases = (
+				C485A1591D4F882100FE5CC5 /* Sources */,
+				C485A15A1D4F882100FE5CC5 /* Frameworks */,
+				C485A15B1D4F882100FE5CC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rainning&SakuraDemo";
+			productName = "Rainning&SakuraDemo";
+			productReference = C485A15D1D4F882100FE5CC5 /* Rainning&SakuraDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C485A1551D4F882100FE5CC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wxm;
+				TargetAttributes = {
+					C485A15C1D4F882100FE5CC5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2HFLB6Z3E3;
+					};
+				};
+			};
+			buildConfigurationList = C485A1581D4F882100FE5CC5 /* Build configuration list for PBXProject "Rainning&SakuraDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C485A1541D4F882100FE5CC5;
+			productRefGroup = C485A15E1D4F882100FE5CC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C485A15C1D4F882100FE5CC5 /* Rainning&SakuraDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C485A15B1D4F882100FE5CC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C485A1811D4F8A8C00FE5CC5 /* 樱花树2.png in Resources */,
+				C485A17D1D4F88E600FE5CC5 /* 42-Raindrop.png in Resources */,
+				C485A1701D4F882100FE5CC5 /* LaunchScreen.storyboard in Resources */,
+				C485A16D1D4F882100FE5CC5 /* Assets.xcassets in Resources */,
+				C485A16B1D4F882100FE5CC5 /* Main.storyboard in Resources */,
+				C485A17F1D4F88E600FE5CC5 /* 樱花瓣2.png in Resources */,
+				C485A1831D4F8CAD00FE5CC5 /* rainning.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C485A1591D4F882100FE5CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C485A1681D4F882100FE5CC5 /* ViewController.m in Sources */,
+				C485A1651D4F882100FE5CC5 /* AppDelegate.m in Sources */,
+				C485A17E1D4F88E600FE5CC5 /* XMWeatherView.m in Sources */,
+				C485A1621D4F882100FE5CC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C485A1691D4F882100FE5CC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C485A16A1D4F882100FE5CC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C485A16E1D4F882100FE5CC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C485A16F1D4F882100FE5CC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C485A1721D4F882100FE5CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C485A1731D4F882100FE5CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C485A1751D4F882100FE5CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rainning&SakuraDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wxm872-qq.com.Rainning-SakuraDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C485A1761D4F882100FE5CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rainning&SakuraDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wxm872-qq.com.Rainning-SakuraDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C485A1581D4F882100FE5CC5 /* Build configuration list for PBXProject "Rainning&SakuraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C485A1721D4F882100FE5CC5 /* Debug */,
+				C485A1731D4F882100FE5CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C485A1741D4F882100FE5CC5 /* Build configuration list for PBXNativeTarget "Rainning&SakuraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C485A1751D4F882100FE5CC5 /* Debug */,
+				C485A1761D4F882100FE5CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C485A1551D4F882100FE5CC5 /* Project object */;
+}
